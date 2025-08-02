@@ -134,11 +134,11 @@ const ProfessionalCard = ({ professional, onRequestReply, onViewProfile }) => {
           </Button>
         </div>
 
-        {/* Request Reply Button */}
+        
         <div className="bg-blue-50 rounded-lg p-3 flex items-center justify-center gap-2">
           <CheckCircle className="w-5 h-5 text-green-500" />
           <Button
-            className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-2 rounded-[4px] font-medium text-base flex-1"
+            className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-2 max-w-[145px] rounded-[4px] font-medium text-base flex-1"
             onClick={() => onRequestReply(professional.id)}
           >
             Request reply
