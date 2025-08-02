@@ -1,0 +1,105 @@
+const randomImages = ["/random1.svg", "/random5.svg", "/random3.svg", "/random4.svg"]
+
+
+const getRandomImage = () => {
+  const randomIndex = Math.floor(Math.random() * randomImages.length)
+  return randomImages[randomIndex]
+}
+
+export const professionals = [
+  {
+    id: "1",
+    name: "Starlink pvt. ltd",
+    isVerified: true,
+    distance: "5.6 miles away",
+    location: "Downtown, New York",
+    rating: 5.0,
+    reviewCount: 125,
+    image: getRandomImage(),
+    description:
+      "We are a leading web design agency specializing in modern, responsive websites that drive business growth. Our team of expert designers and developers create stunning digital experiences that convert visitors into customers. With over 8 years in the industry, we have successfully delivered 200+ projects for clients ranging from startups to Fortune 500 companies.",
+    services: ["Full website design", "Business design", "New project"],
+    responseTime: "Within 2 hours",
+    priceRange: "$2,000 - $10,000",
+    availability: "available",
+    specialties: ["E-commerce", "Corporate Websites", "Landing Pages", "UI/UX Design"],
+    yearsExperience: 8,
+    completedProjects: 200,
+  },
+  {
+    id: "2",
+    name: "Digtiol web pvt. ltd",
+    isVerified: true,
+    distance: "Multiple Locations",
+    location: "New York, Los Angeles, Chicago",
+    rating: 4.9,
+    reviewCount: 124,
+    image: getRandomImage(),
+    description:
+      "A full-service digital agency with offices across major US cities. We specialize in creating cutting-edge web solutions that combine beautiful design with powerful functionality. Our multidisciplinary team includes designers, developers, strategists, and project managers who work together to deliver exceptional results for our clients.",
+    services: ["Full website design", "Business design", "Web projects"],
+    responseTime: "Within 4 hours",
+    priceRange: "$3,000 - $15,000",
+    availability: "available",
+    specialties: ["Enterprise Solutions", "Mobile Apps", "Brand Identity", "Digital Marketing"],
+    yearsExperience: 12,
+    completedProjects: 450,
+  },
+  {
+    id: "3",
+    name: "Creative Minds Studio",
+    isVerified: true,
+    distance: "2.3 miles away",
+    location: "Brooklyn, New York",
+    rating: 4.8,
+    reviewCount: 89,
+    image: getRandomImage(),
+    description:
+      "A boutique design studio focused on creating unique and memorable digital experiences. We believe in the power of great design to transform businesses and connect with audiences on an emotional level. Our approach combines strategic thinking with creative execution to deliver websites that not only look amazing but also perform exceptionally well.",
+    services: ["Creative design", "Brand identity", "Portfolio websites"],
+    responseTime: "Within 1 hour",
+    priceRange: "$1,500 - $8,000",
+    availability: "busy",
+    specialties: ["Creative Industries", "Portfolio Sites", "Art Direction", "Photography"],
+    yearsExperience: 6,
+    completedProjects: 150,
+  },
+  {
+    id: "4",
+    name: "TechFlow Solutions",
+    isVerified: true,
+    distance: "8.1 miles away",
+    location: "Manhattan, New York",
+    rating: 4.7,
+    reviewCount: 156,
+    image: getRandomImage(),
+    description:
+      "Specializing in complex web applications and enterprise-level solutions. Our team of senior developers and architects build scalable, secure, and high-performance web platforms. We work with businesses that need robust digital infrastructure to support their growth and operational needs.",
+    services: ["Web applications", "Enterprise solutions", "API development"],
+    responseTime: "Within 6 hours",
+    priceRange: "$5,000 - $25,000",
+    availability: "available",
+    specialties: ["Enterprise Apps", "API Integration", "Database Design", "Cloud Solutions"],
+    yearsExperience: 10,
+    completedProjects: 300,
+  },
+  {
+    id: "5",
+    name: "Pixel Perfect Design Co.",
+    isVerified: true,
+    distance: "4.7 miles away",
+    location: "Queens, New York",
+    rating: 4.9,
+    reviewCount: 203,
+    image: getRandomImage(),
+    description:
+      "We obsess over every pixel to create flawless digital experiences. Our meticulous attention to detail and commitment to excellence has made us the go-to choice for businesses that demand perfection. From concept to launch, we ensure every element of your website is crafted to perfection.",
+    services: ["Pixel perfect design", "Responsive development", "UI/UX optimization"],
+    responseTime: "Within 3 hours",
+    priceRange: "$2,500 - $12,000",
+    availability: "available",
+    specialties: ["Responsive Design", "Cross-browser Compatibility", "Performance Optimization", "Accessibility"],
+    yearsExperience: 7,
+    completedProjects: 180,
+  },
+]
