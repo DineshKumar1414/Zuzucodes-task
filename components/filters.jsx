@@ -77,7 +77,7 @@ const Filters = ({
           </SelectContent>
         </Select>
 
-        <div className="items-center gap-2 font-bold sm:flex justify-start hidden text-gray-900 px-4">
+        <div className="items-center gap-2 font-bold sm:flex justify-start md:hidden text-gray-900 px-4">
             <span className="text-2xl">{matchCount}</span>
             <span className="text-2xl">{matchCount === 1 ? "match" : "matches"}</span>
           </div>
