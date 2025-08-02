@@ -18,7 +18,7 @@ const NotificationBanner = ({ banner }) => {
           </p>
         </div>
         <Button
-          className="bg-black hover:bg-gray-900 text-white px-6 py-2 rounded font-medium whitespace-nowrap text-sm"
+          className="bg-black hover:bg-gray-900 text-white md:flex hidden px-6 py-2 rounded font-medium whitespace-nowrap text-sm"
           onClick={banner.ctaAction}
         >
           {banner.ctaText}
