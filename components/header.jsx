@@ -9,11 +9,18 @@ export function Header({ user, onLogin, onLogout }) {
     <header className="bg-white border-b border-gray-200 px-4 py-3">
       <div className="max-w-7xl mx-auto flex items-center justify-between 2xl:max-w-[92%] 2xl:mx-0 2xl:px-8">
         <div className="flex items-center gap-2">
-          <MapPin className="w-7 h-7 text-cyan-500 flex-shrink-0" />
+
+         <img
+  src="/logo.svg"
+  alt="Logo"
+  className="w-full sm:max-w-[120px] md:min-w-[250px]"
+/>
+
+          {/* <MapPin className="w-7 h-7 text-cyan-500 flex-shrink-0" />
           <div>
             <h1 className="text-xl font-bold text-gray-900 whitespace-nowrap">Localists</h1>
             <p className="text-xs text-gray-500 leading-none whitespace-nowrap">Find Local Professionals Fast</p>
-          </div>
+          </div> */}
         </div>
 
        <div className="flex items-center gap-6">
