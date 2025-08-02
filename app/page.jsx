@@ -135,7 +135,7 @@ export default function LocalistsPage() {
 
             <div className="text-center mb-6">
               <Button
-                className="bg-[#F74B00] hover:bg-cyan-600 text-white px-6 md:px-8 py-3 rounded-[4px] font-medium text-sm md:text-base w-full md:w-auto max-w-sm"
+                className="bg-[#F74B00] hover:bg-cyan-600 text-white px-6 md:px-8 py-3 rounded-[4px] font-medium text-sm md:text-base w-full max-w-[290px]"
                 onClick={handleRequestBestMatches}
               >
                 Request Your 5 Top Matches Here

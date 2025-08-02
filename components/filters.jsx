@@ -15,15 +15,15 @@ const Filters = ({
   onSortChange,
 }) => {
   return (
-    <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg p-4 mb-6 border border-blue-100">
+    <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg p-4 xs:p-0 mb-6 border border-blue-100">
       <div className="flex flex-col lg:flex-row gap-4 items-start lg:items-center justify-between">
        <div className="items-center gap-2 font-bold flex justify-start md:hidden text-gray-900 px-0">
-            <span className="text-2xl">{matchCount}</span>
-            <span className="text-2xl">{matchCount === 1 ? "match" : "matches"}</span>
+            <span className="sm:text-md ">{matchCount}</span>
+            <span className="sm:text-md ">{matchCount === 1 ? "match" : "matches"}</span>
           </div>
-        <div className="flex flex-row justify-start gap-4 md:flex">
+        <div className="flex flex-row sm:text-[9px] justify-start gap-4 md:flex">
           <Select value={selectedRating} onValueChange={onRatingChange}>
-            <SelectTrigger className="w-full sm:w-40 bg-white">
+            <SelectTrigger className="w-full bg-white">
               <SelectValue placeholder="All ratings" />
             </SelectTrigger>
             <SelectContent>
@@ -36,7 +36,7 @@ const Filters = ({
           </Select>
 
           <Select value={selectedLocation} onValueChange={onLocationChange}>
-            <SelectTrigger className="w-full sm:w-40 bg-white">
+            <SelectTrigger className="w-full bg-white">
               <SelectValue placeholder="All locations" />
             </SelectTrigger>
             <SelectContent>
@@ -49,7 +49,7 @@ const Filters = ({
           </Select>
 
           <Select value={selectedResponseTime} onValueChange={onResponseTimeChange}>
-            <SelectTrigger className="w-full sm:w-48 bg-white">
+            <SelectTrigger className="w-full bg-white">
               <SelectValue placeholder="All response times" />
             </SelectTrigger>
             <SelectContent>
