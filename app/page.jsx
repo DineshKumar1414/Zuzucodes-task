@@ -101,9 +101,9 @@ export default function LocalistsPage() {
     <div className="min-h-screen bg-gray-50">
       <Header user={currentUser} onLogin={handleLogin} onLogout={handleLogout} />
       <main className="max-w-7xl mx-auto px-4 py-6 2xl:max-w-[92%] 2xl:mx-0 2xl:px-8">   
-        <h1 className="text-2xl md:text-4xl font-bold text-center text-gray-900 mb-4">Web Designer</h1>
+        <h1 className="text-2xl md:text-4xl font-poppins font-bold text-center text-gray-900 mb-4">Web Designer</h1>
           <div className="md:hidden text-center mb-6 px-4">
-          <p className="text-gray-600 text-sm leading-relaxed">
+          <p className="text-gray-600 font-poppins text-sm leading-relaxed">
             Your Top 5 local professional matches are below. You can contact any of the professionals to get more
             information using the contact button.
           </p>

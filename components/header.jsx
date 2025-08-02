@@ -42,10 +42,10 @@ export function Header({ user, onLogin, onLogout }) {
               </div>
 
               {/* Mobile User Menu */}
-              <div className="md:hidden flex items-center gap-4">
+              <div className="md:hidden flex font-poppins items-center gap-4">
                 <DropdownMenu>
                   <DropdownMenuTrigger className="flex items-center gap-1 text-gray-700 hover:text-gray-900 text-sm">
-                    <span>Our Services</span>
+                    <span >Our Services</span>
                     <ChevronDown className="w-4 h-4" />
                   </DropdownMenuTrigger>
                   <DropdownMenuContent align="start">
@@ -62,7 +62,7 @@ export function Header({ user, onLogin, onLogout }) {
               </div>
             </>
           ) : (
-            <div className="md:hidden flex items-center gap-4">
+            <div className="md:hidden font-poppins flex items-center gap-4">
               <DropdownMenu>
                 <DropdownMenuTrigger className="flex items-center gap-1 text-gray-700 hover:text-gray-900 text-sm">
                   <span>Our Services</span>
